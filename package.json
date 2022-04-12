@@ -1,0 +1,34 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "poststart": "echo \"Это poststart\"",
+    "prestart": "echo \"Это prestart\"",
+    "server": "node server.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Popeye80/node.git"
+  },
+  "keywords": [],
+  "author": "Vladimir Pavlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Popeye80/node/issues"
+  },
+  "homepage": "https://github.com/Popeye80/node#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
